@@ -1,4 +1,5 @@
 ## Load ggplot2 library
+
 library(ggplot2)
 
 NEI <- readRDS("~/Exploratory_Data_Analysis/Assignment_2/summarySCC_PM25.rds")
