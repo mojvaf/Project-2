@@ -12,7 +12,7 @@ NEI_sampling <- NEI[sample(nrow(NEI), size=5000, replace=F), ]
 
 # Baltimore City, Maryland == fips
 
-MD <- subset(NEI, fips == 24510)
+MD <- subset(NEI, fips  == 24510)
 MD$year <- factor(MD$year, levels=c('1999', '2002', '2005', '2008'))
 
 # Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, 
