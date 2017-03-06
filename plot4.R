@@ -1,4 +1,5 @@
-## Load ggplot2 library
+## Load ggplot2 library 
+
 require(ggplot2)
 
 # Loading provided datasets - loading from local machine
