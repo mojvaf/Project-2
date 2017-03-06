@@ -5,7 +5,7 @@ SCC <- readRDS("~/Exploratory_Data_Analysis/Assignment_2/Source_Classification_C
 
 # Sampling
 
-NEI_sampling <- NEI[sample(nrow(NEI), size=5000, replace=F), ]
+NEI_sampling <- NEI[sample(nrow(NEI), size=5000, replace=F),  ]
 
 # Subset data and append two years in one data frame
 
