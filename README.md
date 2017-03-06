@@ -17,6 +17,7 @@ Emissions$PM <- round(Emissions[,2]/1000,2)
 # for each of the years 1999, 2002, 2005, and 2008.
 
 # Generate the graph in the same directory as the source code
+
 png(filename='~/Exploratory_Data_Analysis/Assignment_2/plot1.png')
 
 barplot(Emissions$PM, names.arg=Emissions$Group.1, 
